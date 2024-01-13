@@ -12,7 +12,7 @@ const Card = () => {
             className="rounded-t-lg lg:min-h-full lg:rounded-l-lg lg:rounded-t-none lg:object-cover"
           />
         </div>
-        <div className="lg:w-[65%] lg:rounded-r-lg lg:relative bg-black">
+        <div className="lg:w-[65%] lg:rounded-r-lg lg:relative">
           <div className="flex flex-col gap-2 pb-4 mb-0 bg-white pt-9 px-7 lg:pt-5 lg:rounded-tr-lg">
             <h2 className="text-sm font-bold text-darkGrayishBlue">
               Shift the overall look and feel by adding these wondeful touches

@@ -9,7 +9,15 @@ const Share = () => {
   };
 
   useEffect(() => {
-    console.log(windowWidth);
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.onresize = handleResize;
+
+    return () => {
+      window.onresize = null;
+    };
   }, []);
 
   return (
